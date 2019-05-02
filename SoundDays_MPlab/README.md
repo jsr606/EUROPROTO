@@ -11,17 +11,17 @@ jacob remin & reinis nalivaiko
 
 ## links / references
 
-https://vsionhairies.info/
-http://www.jacobremin.com/
-https://www.arduino.cc/
-http://sound.mplab.lv/
+https://vsionhairies.info/  
+http://www.jacobremin.com/  
+https://www.arduino.cc/  
+http://sound.mplab.lv/  
 
 ## thanks!
 
-erica synths
-https://www.ericasynths.lv/
-nordic culture point
-https://www.nordiskkulturkontakt.org
+erica synths  
+https://www.ericasynths.lv/  
+nordic culture point  
+https://www.nordiskkulturkontakt.org  
 
 ## more infos
 
