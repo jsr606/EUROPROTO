@@ -4,6 +4,17 @@ for digital modular workshop at MPlab sound days.
 http://sound.mplab.lv/workshops/jacob-remin/   
 jacob remin, liepaja, may 2019  
 
+# BOM
+
+## BOM
+
+Partlist
+Exported from CFO_europroto_atmega328_mcp4822.brd at 4/29/19 11:50 AM
+
+# BOM
+
+![](photos/BOM.png)
+
 # soldering
 
 say hello to your PCB
