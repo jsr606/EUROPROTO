@@ -10,4 +10,4 @@ The outcome of the workshop will be true hybrid modular systems that is self pla
 http://sound.mplab.lv/workshops/jacob-remin/
 Jacob Remin, Liepaja, 2-5 May 2019
 
-[build instructions](../build_instructions)
+[build instructions](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/build_instructions)
