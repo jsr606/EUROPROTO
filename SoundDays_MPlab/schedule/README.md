@@ -1,10 +1,10 @@
 # CFO EUROPROTO 1
 # digital modular - schedule
 
-date / time        course structure
-/////////////////////////////////////////////////////////////////////////  
-//wednesday may 1st          
-10:00-11:00        welcome!   
+> date / time        course structure
+> /////////////////////////////////////////////////////////////////////////  
+> //wednesday may 1st          
+> 10:00-11:00        welcome!   
 12:00-16:00        introduction to the eurorack system by reinis nalivaiko  
 17:00-19:00        artist presentations  
 20:00-22:00        yuri landman workshop results  
