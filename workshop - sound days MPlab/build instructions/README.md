@@ -1,25 +1,27 @@
 # CFO EUROPROTO 1
 # build instructions
-jacob remin, may 2019
+for digital modular workshop at MPlab sound days
+http://sound.mplab.lv/workshops/jacob-remin/
+jacob remin, liepaja, may 2019
 
 # soldering
 
 say hello to your PCB
 ![](photos/step01.png)
 
-first solder the resistors. they are all 10k ohm
+first solder the resistors. they are all 10k ohm. they have no polarity, but try to align them all the same way. just pick one. it makes it easier to see what is going on for other people (or yourself in a couple of weeeks)
 ![](photos/step02.png)
 
 solder the 16mhz chrystal. the crystal has no polarity
 ![](photos/step03.png)
 
-solder the 18pf capacitors
+solder the 18pf capacitors. they have no polarity
 ![](photos/step04.png)
 
-solder the 100uf capacitors
+solder the 100uf capacitors. again no polarity here
 ![](photos/step05.png)
 
-solder the IC sockets. make sure to orient them correctly
+solder the IC sockets. NB: make sure to orient them correctly
 ![](photos/step06.png)
 
 solder the programmer pin headers
