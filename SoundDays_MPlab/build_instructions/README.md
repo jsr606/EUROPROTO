@@ -48,3 +48,4 @@ mount the ICs in the IC sockets. NB: mind the orientation of the chips, and be c
 mount the ICs in the IC sockets. NB: mind the orientation of the chips, and be careful not to mix up the DAC and the opamp
 ![](photos/step11.png)
 
+that's it! you're done :) now we need to add a faceplate and program it
