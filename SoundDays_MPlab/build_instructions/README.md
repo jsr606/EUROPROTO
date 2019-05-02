@@ -1,6 +1,6 @@
 # CFO EUROPROTO 1
 # build instructions
-for digital modular workshop at MPlab sound days.  
+for digital modular workshop at MPlab sound days  
 http://sound.mplab.lv/workshops/jacob-remin/   
 jacob remin, liepaja, may 2019  
 
