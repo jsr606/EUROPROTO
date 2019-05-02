@@ -49,3 +49,13 @@ mount the ICs in the IC sockets. NB: mind the orientation of the chips, and be c
 ![](photos/step11.png)
 
 that's it! you're done :) now we need to add a faceplate and program it
+
+# faceplate
+
+now it gets interesting! you have to decide on how many plugs your module needs. if in doubt, i suggest 3 plugs.
+
+mark on the PCB where you want to position the plugs and drill holes :) NB: make sure you can fit the plugs and the electronics on the backside, when you solder faceplate and mainboard together. see pics below for suggested placement:
+
+![](photos/faceplateSuggestedPlugPlacement.png)
+
+![](photos/drilling.png)
