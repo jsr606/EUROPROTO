@@ -2,7 +2,7 @@
 # digital modular - schedule
 
 date / time        course structure
-/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////  
 //wednesday may 1st          
 10:00-11:00        welcome!   
 12:00-16:00        introduction to the eurorack system by reinis nalivaiko  
