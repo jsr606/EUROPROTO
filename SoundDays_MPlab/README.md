@@ -25,5 +25,5 @@ https://www.nordiskkulturkontakt.org
 
 ## more infos
 
-![schedule](schedule.png)
+![schedule](schedule.png)  
 [build instructions](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/build_instructions)
