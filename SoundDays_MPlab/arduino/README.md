@@ -3,11 +3,15 @@
  
 the CFO EUROPROTO is based on an atmega328 chip, which is the same chip that sits at the centre of a typical arduino. this means we can program the module using the arduino software.
 
-![](pics/Atmel-MCU-ATmega328-and-the-Arduino-pin-out.png)
+![](pics/ATmega328-w-europroto-connections.png)
 
-download arduino IDE from https://www.arduino.cc/
+ADD NOTES REG. DAC & POT1, POT2, POT3
 
-you need to use a USB to serial connecter to connect to the board. a nice USB to serial cable [is this one](https://eu.mouser.com/ProductDetail/FTDI/TTL-234X-5V?qs=sGAEpiMZZMve4%2FbfQkoj%252BHKRsWEfBN5HUqn9pYz616g%3D)
+to program the module, first download the arduino IDE from https://www.arduino.cc/
+
+if you have never programmed an arduino before and need help installing the software / getting your head around microcontrollers take a look [here](https://www.arduino.cc/en/Guide/HomePage)
+
+since the CFO EUROPROTO has no USB port, only a serial connection, you will need to use a USB to serial connecter to connect to the board. a nice USB to serial cable [is this one](https://eu.mouser.com/ProductDetail/FTDI/TTL-234X-5V?qs=sGAEpiMZZMve4%2FbfQkoj%252BHKRsWEfBN5HUqn9pYz616g%3D)
 
 INSERT IMAGE
 
@@ -17,6 +21,5 @@ INSERT IMAGE
 
 example code is in the [arduino folder](../arduino) in this repository. start with the testcode and open the serial port to see if your potentiometers are connected correctly. once this works, move on the the sound examples :)
 
-if you have never programmed an arduino before and need help installing the software / getting your head around microcontrollers take a look [here](https://www.arduino.cc/en/Guide/HomePage)
 
 if you would like to understand more about sound, sound synthesis, and how sound works in a computer / digital environment, i recommend reading [this processing tutorial](https://processing.org/tutorials/sound/)
