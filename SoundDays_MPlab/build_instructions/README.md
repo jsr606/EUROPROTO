@@ -78,7 +78,7 @@ INSERT IMAGE
 
 now attach knobs to your potentiometers, and hey: well done! you've assembled your first module :)
 
-once the module is assembled, we need to upload testcode to the chip to see if everything works.
+once the module is assembled, we need to upload testcode to the chip to see if everything works. go to the [code](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/code) part of this repository to find code examples and guidelines
 
 
 
