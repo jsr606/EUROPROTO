@@ -82,5 +82,14 @@ now attach knobs to your potentiometers, and hey: well done! you've assembled yo
 
 once the module is assembled, we need to upload testcode to the chip to see if everything works. go to the [code](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/code) part of this repository to find code examples and guidelines
 
+# expansion possibilities
+
+the following is small schematics for possible expansions, giving your module more capabilities
+
+## CV in
+
+use the following schematic to scale voltages from -10V to 10V to an atmega safe 0 to 5V
+![](pics/CVin.png)
+
 
 
