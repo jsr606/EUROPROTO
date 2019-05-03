@@ -5,7 +5,7 @@ the CFO EUROPROTO is based on an atmega328 chip, which is the same chip that sit
 
 ![](pics/ATmega328-w-europroto-connections.png)
 
-ADD NOTES REG. DAC & POT1, POT2, POT3
+the atmega328 pinout
 
 to program the module, first download the arduino IDE from https://www.arduino.cc/
 
