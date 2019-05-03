@@ -1,4 +1,5 @@
-// CFO EUROPROTO 1 as 8bit oscillator
+// CFO EUROPROTO 1 as 8bit oscillator with FM synthesisish
+
 
 // sound processing based on the arduino pocket piano code and circuit, by critter and guittari
 // more info: http://www.critterandguitari.com/home/store/arduino-piano.php
@@ -18,21 +19,6 @@ byte waveForm = 0;
 byte modulatorWaveForm = 0;
 uint16_t harmonicity = 0;              // harmonicity (first 8 bits are fractional) (0 - 65536)
 uint8_t modulatorDepth = 0;            // modulation depth (0 - 255)
-
-// hertz values for notes
-int hertzTable[20] = {370, 392, 415, 440, 466, 494, 523, 555, 587, 622, 659, 699, 740, 784, 831, 880, 932, 988, 1047, 1109};
-int octave = 0;                       //current base octave
-
-//setup decay
-boolean triggerHigh = false;
-boolean rising = false;
-boolean falling = false;
-int decayFreq = 10;
-unsigned long lastDecay = millis();
-
-// for debug purposes
-int lowestEver = 1023, highestEver = 0;
-int noise = 50;
 
 // define inputs and outputs, NB: DAC is connected to pins 10, 11 and 13
 int pot1 = A5, pot2 = A4, pot3 = A3;
