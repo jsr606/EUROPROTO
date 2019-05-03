@@ -66,9 +66,15 @@ once you have the plugs mounted on the faceplate it's time to solder the potenti
 
 when connecting the faceplate to the mainboard be sure everything is aligned in a perfect 90 degree angle: solder one or two pins and calibrate before soldering all the pins. NB: if things are not straight, you module might not fit in inside your synthesizer!
 
+INSERT IMAGE
+
 connect the ground pins of the audio jacks together. and wire the jacks to GND on the mainboard.
 
+INSERT IMAGE
+
 connect AMP1 to audio / CV out
+
+INSERT IMAGE
 
 well done! you've assembled your first module :)
 
