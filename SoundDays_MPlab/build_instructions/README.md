@@ -10,6 +10,8 @@ jacob remin, liepaja, may 2019
 
 # soldering
 
+if you have never soldered before, i recommend looking at [this little cartoon](https://blog.adafruit.com/2010/02/19/soldering-is-easy-heres-how-to-do-it-comic/)
+
 say hello to your PCB
 ![](photos/step01.png)
 
@@ -63,4 +65,19 @@ mark on the PCB where you want to position the plugs and drill holes :) NB: make
 once you have the plugs mounted on the faceplate it's time to solder the potentiometers.
 
 when connecting the faceplate to the mainboard be sure everything is aligned in a perfect 90 degree angle: solder one or two pins and calibrate before soldering all the pins. NB: if things are not straight, you module might not fit in inside your synthesizer!
+
+connect the ground pins of the audio jacks together. and wire the jacks to GND on the mainboard.
+
+connect AMP1 to audio / CV out
+
+# programming it
+
+now we need to upload testcode to the board to see if everything works. you need to use a USB to serial connecter to connect to the board. a nice USB to serial cable is this one:
+
+https://eu.mouser.com/ProductDetail/FTDI/TTL-234X-5V?qs=sGAEpiMZZMve4%2FbfQkoj%252BHKRsWEfBN5HUqn9pYz616g%3D
+
+cheaper dongle style versions are available on amazon:
+
+https://www.amazon.de/Adapter-FT232RL-Arduino-Christians-Technikshop/dp/B0178HVEH0/ref=pd_sbs_147_3/257-0929842-9837212?_encoding=UTF8&pd_rd_i=B0178HVEH0&pd_rd_r=15a07e5a-6d58-11e9-bd12-7dbd624bdfef&pd_rd_w=kramz&pd_rd_wg=jAAss&pf_rd_p=74d946ea-18de-4443-bed6-d8837f922070&pf_rd_r=FF938E6AVQXE9MZTNBNK&psc=1&refRID=FF938E6AVQXE9MZTNBNK
+
 
