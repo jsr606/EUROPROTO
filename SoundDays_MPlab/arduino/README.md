@@ -3,7 +3,7 @@
  
 the CFO EUROPROTO is based on an atmega328 chip, which is the same chip that sits at the centre of a typical arduino. this means we can program the module using the arduino software.
 
-![](/pics/Atmel-MCU-ATmega328-and-the-Arduino-pin-out.png)
+![](pics/Atmel-MCU-ATmega328-and-the-Arduino-pin-out.png)
 
 download arduino IDE from https://www.arduino.cc/
 
