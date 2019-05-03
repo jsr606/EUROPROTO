@@ -68,13 +68,15 @@ when connecting the faceplate to the mainboard be sure everything is aligned in 
 
 ![](pics/angledPCBs.png)
 
-connect the ground pins of the audio jacks together. and wire the jacks to GND on the mainboard.
+connect the ground pins of the audio jacks together. you can use wire, but might as well use some of the cut off legs from used components that you have floating around your work desk by now. 
+
+then wire the jacks to GND on the mainboard.
 
 ![](pics/connectGND.png)
 
-connect AMP1 to audio / CV out
+GND from the jacks to GND on the mainboard (could be anywhere, but see suggested connector on pic), and connect AMP1 to tip connector of the audio / CV out jack (see pic).
 
-INSERT IMAGE
+![](PICS/AMP1toJack.png)
 
 now attach knobs to your potentiometers, and hey: well done! you've assembled your first module :)
 
