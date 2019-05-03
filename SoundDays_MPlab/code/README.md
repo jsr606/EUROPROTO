@@ -17,6 +17,8 @@ since the CFO EUROPROTO has no USB port, only a serial connection, you will need
 
 a nice USB to serial cable [is this one](https://eu.mouser.com/ProductDetail/FTDI/TTL-234X-5V?qs=sGAEpiMZZMve4%2FbfQkoj%252BHKRsWEfBN5HUqn9pYz616g%3D), cheaper dongle style versions are [available on amazon](https://www.amazon.de/Adapter-FT232RL-Arduino-Christians-Technikshop/dp/B0178HVEH0/ref=pd_sbs_147_3/257-0929842-9837212?_encoding=UTF8&pd_rd_i=B0178HVEH0&pd_rd_r=15a07e5a-6d58-11e9-bd12-7dbd624bdfef&pd_rd_w=kramz&pd_rd_wg=jAAss&pf_rd_p=74d946ea-18de-4443-bed6-d8837f922070&pf_rd_r=FF938E6AVQXE9MZTNBNK&psc=1&refRID=FF938E6AVQXE9MZTNBNK) too
 
+NB: mind the orientation: GND (black wire) is down on the main board.
+
 under tools set your arduino board to be an "arduino duemilanove and diecimila", your processor to be an "ATmega328P" and pick the USB/COM port which corresponds to you programmer (if you are unsure which it is, unplug you programmer and see which one disappears / reappears when you plug it in and out).
 
 example code is in the [arduino folder](../arduino) in this repository. start with the testcode and open the serial port to see if your potentiometers are connected correctly. once this works, move on the the sound examples :)
