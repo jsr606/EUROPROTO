@@ -70,7 +70,7 @@ INSERT IMAGE
 
 connect the ground pins of the audio jacks together. and wire the jacks to GND on the mainboard.
 
-INSERT IMAGE
+![](pics/connectGND.png)
 
 connect AMP1 to audio / CV out
 
