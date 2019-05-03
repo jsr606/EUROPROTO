@@ -60,7 +60,7 @@ mark on the PCB where you want to position the plugs and drill holes :) NB: make
 
 ![](pics/faceplateSuggestedPlugPlacement.png)
 
-![](pics/drilling.png)
+![](pics/drill.png)
 
 once you have the plugs mounted on the faceplate it's time to solder the potentiometers.
 
