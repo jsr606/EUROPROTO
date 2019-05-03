@@ -76,7 +76,7 @@ then wire the jacks to GND on the mainboard.
 
 GND from the jacks to GND on the mainboard (could be anywhere, but see suggested connector on pic), and connect AMP1 to tip connector of the audio / CV out jack (see pic).
 
-![](PICS/AMP1toJack.png)
+![](pics/AMP1toJack.png)
 
 now attach knobs to your potentiometers, and hey: well done! you've assembled your first module :)
 
