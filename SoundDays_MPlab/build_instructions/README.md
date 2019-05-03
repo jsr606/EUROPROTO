@@ -76,7 +76,7 @@ connect AMP1 to audio / CV out
 
 INSERT IMAGE
 
-well done! you've assembled your first module :)
+now attach knobs to your potentiometers, and hey: well done! you've assembled your first module :)
 
 once the module is assembled, we need to upload testcode to the chip to see if everything works.
 
