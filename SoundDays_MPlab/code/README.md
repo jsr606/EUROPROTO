@@ -21,6 +21,8 @@ NB: mind the orientation: GND (black wire) is down on the main board.
 
 under tools set your arduino board to be an "arduino duemilanove and diecimila", your processor to be an "ATmega328P" and pick the USB/COM port which corresponds to you programmer (if you are unsure which it is, unplug you programmer and see which one disappears / reappears when you plug it in and out).
 
+![](pics/settings.png)
+
 example code is in the [arduino folder](../arduino) in this repository. start with the testcode and open the serial port to see if your potentiometers are connected correctly. once this works, move on the the sound examples :)
 
 if you would like to understand more about sound, sound synthesis, and how sound works in a computer / digital environment, i recommend reading [this processing tutorial](https://processing.org/tutorials/sound/)
