@@ -82,6 +82,12 @@ now attach knobs to your potentiometers, and hey: well done! you've assembled yo
 
 once the module is assembled, we need to upload testcode to the chip to see if everything works. go to the [code](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/code) part of this repository to find code examples and guidelines
 
+# technical notes
+
+a simulation of the op amp circuit can be found here: http://tinyurl.com/y3vhav76
+
+![](pics/falstad_opAmp_simulation.png)
+
 # expansion possibilities
 
 the following is small schematics for possible expansions, giving your module more capabilities
