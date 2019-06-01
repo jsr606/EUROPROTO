@@ -82,7 +82,12 @@ now attach knobs to your potentiometers, and hey: well done! you've assembled yo
 
 once the module is assembled, we need to upload testcode to the chip to see if everything works. go to the [code](https://github.com/jsr606/EUROPROTO/tree/master/SoundDays_MPlab/code) part of this repository to find code examples and guidelines
 
-# technical notes
+# notes on output and amplification
+
+the CFO europroto works by using a 12-bit DAC to create an analog signal between 0 and 5V (2 signals if you choose the MCP4822 DAC over the MCP4921)
+this signal is the amplified to the range of -5V to 5V using the NE5532 op amp
+
+if you are using the 1 channel DAC (MCP4921), you need to apply reference current on the VREF input of the DAC. this is conveiniently done so by soldering the solder bridge marked "VREF5V" together. if you are using the 2 channel DAC (MCP4822), the chip has internal VREF and you do NOT solder this solder bridge together.
 
 a simulation of the op amp circuit can be found here: http://tinyurl.com/y3vhav76
 
@@ -97,5 +102,7 @@ the following is small schematics for possible expansions, giving your module mo
 use the following schematic to scale voltages from -10V to 10V to an atmega safe 0 to 5V
 ![](pics/CVin.png)
 
+a simulation of the CV input scaling circuit can be found here: http://tinyurl.com/y2xc58qk
 
+![](pics/CV_input_scaling.png)
 
