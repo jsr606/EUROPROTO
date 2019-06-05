@@ -85,13 +85,18 @@ once the module is assembled, we need to upload testcode to the chip to see if e
 # notes on output and amplification
 
 the CFO europroto works by using a 12-bit DAC to create an analog signal between 0 and 5V (2 signals if you choose the MCP4822 DAC over the MCP4921)
-this signal is the amplified to the range of -5V to 5V using the NE5532 op amp
+this signal is the amplified to the range of -5V to 5V or 0V to 10V using the NE5532 op amp. selection between the two voltage ranges are made by applying solder to the two solder jumpers named "amp1" and "amp2". by soldering the middle pad to pad 1 a range of -5V to 5V is selected (typical for audio applications), by soldering the middle pad to pad 2 a range of 0V to 10V output is selected (typical for CV applications).
+
+a simulation of the -5V to 5V op amp circuit can be found here: http://tinyurl.com/y3vhav76
+
+![](pics/falstad_opAmp_simulation.png)
+
+a simulation of the 0V to 10V op amp circuit can be found here: http://tinyurl.com/yxrvrr4l
+
+![](pics/AMPOUT_CV_range.png)
 
 if you are using the 1 channel DAC (MCP4921), you need to apply reference current on the VREF input of the DAC. this is conveiniently done so by soldering the solder bridge marked "VREF5V" together. if you are using the 2 channel DAC (MCP4822), the chip has internal VREF and you do NOT solder this solder bridge together.
 
-a simulation of the op amp circuit can be found here: http://tinyurl.com/y3vhav76
-
-![](pics/falstad_opAmp_simulation.png)
 
 # expansion possibilities
 
