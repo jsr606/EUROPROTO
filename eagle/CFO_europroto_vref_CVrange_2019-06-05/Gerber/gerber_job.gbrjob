@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-06-05T18:16:40Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "CFO_europroto_vref_CVrange"
+        },
+        "Owner": "Jacob Remin <uglenbatman@gmail.com>",
+        "Size": {
+            "X": 31.113941,
+            "Y": 108.216341
+        }
+    }
+}
