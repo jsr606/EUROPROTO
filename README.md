@@ -1,7 +1,8 @@
 # EUROPROTO
-an arduino / atmega platform for making digital eurorack modules
+an arduino / atmega platform for making digital eurorack modules and
+various helper PCBs
 
-based on on the CHEAP, FAT and OPEN synthesizer
+based on on the [CHEAP, FAT and OPEN](https://vsionhairies.info/) synthesizer
 
 ## a what?
 arduino based eurorack module with dual channel DAC output
